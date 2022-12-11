@@ -137,7 +137,7 @@ export default function Upload() {
                     value={location}
                     onChange={(e) => setLocation(e.target.value)}
                     type="text"
-                    placeholder="Mexico City"
+                    placeholder="Bali - Indonesia"
                     className="border-borderWhiteGray mt-2 h-12 rounded-md  border bg-transparent p-2 focus:outline-none dark:border-[#444752]  dark:text-white dark:placeholder:text-gray-600"
                   />
                 </div>

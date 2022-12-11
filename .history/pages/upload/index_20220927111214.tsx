@@ -115,7 +115,7 @@ export default function Upload() {
               <input
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
-                placeholder="Lorem Ipsum etc etc"
+                placeholder="Rick Astley - Never Gonna Give You Up (Official Music Video)"
                 className="border-borderWhiteGray mt-2  h-12  w-[90%] rounded-md border bg-transparent p-2 focus:outline-none dark:border-[#444752]  dark:text-white dark:placeholder:text-gray-600"
               />
               <label className="mt-10 text-sm text-gray-600 dark:text-[#9CA3AF]">
@@ -124,7 +124,7 @@ export default function Upload() {
               <textarea
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
-                placeholder="Lorem Ipsum etc etc"
+                placeholder="Never Gonna Give You Up was a global smash on its release in July 1987, topping the charts in 25 countries including Rick’s native UK and the US Billboard Hot 100.  It also won the Brit Award for Best single in 1988. Stock Aitken and Waterman wrote and produced the track which was the lead-off single and lead track from Rick’s debut LP “Whenever You Need Somebody."
                 className="border-borderWhiteGray mt-2  h-32 w-[90%] rounded-md  border bg-transparent p-2 focus:outline-none dark:border-[#444752]  dark:text-white dark:placeholder:text-gray-600"
               />
 
@@ -137,7 +137,7 @@ export default function Upload() {
                     value={location}
                     onChange={(e) => setLocation(e.target.value)}
                     type="text"
-                    placeholder="Mexico City"
+                    placeholder="Bali - Indonesia"
                     className="border-borderWhiteGray mt-2 h-12 rounded-md  border bg-transparent p-2 focus:outline-none dark:border-[#444752]  dark:text-white dark:placeholder:text-gray-600"
                   />
                 </div>
