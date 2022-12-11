@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 
 export default function UploadInput(props) {
   const [video, setVideo] = useState("");
-  const videoRef = useRef<HTMLVideoElement>();
+  const videoRef = useRef();
 
   const handleInput = (e) => {
     setVideo(URL.createObjectURL(e.target.files[0]));
@@ -13,7 +13,7 @@ export default function UploadInput(props) {
   return (
     <div
       onClick={() => {
-        videoRef.current.click();
+        videoRef: React.MutableRefObject<undefined>.current.click();
       }}
       className={
         video
@@ -34,7 +34,6 @@ export default function UploadInput(props) {
           Upload {props.isAudio ? "Audio" : "Video"}
         </p>
       )}
-      
       <input
         type="file"
         className="hidden"

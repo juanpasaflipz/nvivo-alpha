@@ -34,7 +34,7 @@ export default function UploadInput(props) {
           Upload {props.isAudio ? "Audio" : "Video"}
         </p>
       )}
-      
+      <label for="form>form<"
       <input
         type="file"
         className="hidden"
